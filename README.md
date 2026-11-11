@@ -26,8 +26,7 @@ Then the work is attacked. Separate review agents get a frozen copy and are aske
 confirm. What they find goes back to a single writer, and the review runs again.
 
 A number is accepted only when the tests pass in a clean clone and, in the refund study, when a
-deliberately corrupted file makes the check fail. What I do myself: decide what to build and what to
-measure, label data, and decide what gets published. When a published number turns out wrong, I correct
+deliberately corrupted file makes the check fail. What I do myself: decide what to build, label data, and decide what gets published. When a published number turns out wrong, I correct
 it in public and write down why. The changelogs here are mostly that.
 
 [LinkedIn](https://www.linkedin.com/in/dmitri-sulga) · europeworktallinn@gmail.com
