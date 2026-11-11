@@ -23,7 +23,7 @@ splits a task among specialised agents, gives each its own files so that two nev
 merges what they produce.
 
 Then the work is attacked. Separate review agents get a frozen copy and are asked to find faults, not to
-confirm. What they find goes back to a single writer, and the review runs again until it comes back clean.
+confirm. What they find goes back to a single writer, and the review runs again.
 
 A number is accepted only when the tests pass in a clean clone and, in the refund study, when a
 deliberately corrupted file makes the check fail. What I do myself: decide what to build and what to
