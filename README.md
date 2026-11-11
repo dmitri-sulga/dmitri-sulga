@@ -18,8 +18,16 @@ The last part is the one I trust.
 
 #### How I work
 
-AI agents write most of my code. I decide what to build and what to measure, and I do not accept a number
-until tests, repeated runs and a separate review agree with it. When a number I published turns out wrong,
-I correct it in public and write down why. The changelogs here are mostly that.
+I do not write most of this code by hand, and I do not pretend to. I direct an orchestrating AI agent. It
+splits a task among specialised agents, gives each its own files so that two never edit the same one, and
+merges what they produce.
+
+Then the work is attacked. Separate review agents get a frozen copy and are asked to find faults, not to
+confirm. What they find goes back to a single writer, and the review runs again until it comes back clean.
+
+A number is accepted only when the tests pass in a clean clone and, in the refund study, when a
+deliberately corrupted file makes the check fail. What I do myself: decide what to build and what to
+measure, label data, and decide what gets published. When a published number turns out wrong, I correct
+it in public and write down why. The changelogs here are mostly that.
 
 [LinkedIn](https://www.linkedin.com/in/dmitri-sulga) · europeworktallinn@gmail.com
